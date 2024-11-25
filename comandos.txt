@@ -1,0 +1,4 @@
+criando uma network
+docker network create http-network2
+docker build -t tcp-server .
+docker run --network http-network2 --name tcp-server tcp-server
